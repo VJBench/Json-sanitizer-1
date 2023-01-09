@@ -1,0 +1,11 @@
+{
+    "buggy_file_path": "src/main/java/com/google/json/JsonSanitizer.java",
+    "buggy_method":[[511,645]],
+    "buggy_line":[[547,553]],
+    "bug_type": "insertion",
+    "compile_cmd": "mvn clean compile",
+    "test_cmd" : "mvn clean test",
+    "CVE": "CVE-2020-13973",
+    "skip_compile_cmd": false,
+    "github_url":"https://github.com/WuYff/json-sanitizer-cve/commit/f3512bab078af3f5c533dacc2d410add8c0c1124#diff-96d69759b03a536a87b20188d1a5be4ddc950a0e01693d5bb859b4573969855bL552-L553"
+}
